@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRM Dashboard</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar Navigation -->
+        <nav class="sidebar">
+            <h2>CRM System</h2>
+            <ul>
+                <li><a href="#dashboard">Dashboard</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+                <li><a href="#leads">Leads</a></li>
+                <li><a href="#sales-pipeline">Sales Pipeline</a></li>
+                <li><a href="#tasks">Tasks</a></li>
+                <li><a href="#reports">Reports</a></li>
+                <li><a href="#settings">Settings</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <header>
+                <h1>Welcome to the CRM Dashboard</h1>
+                <div class="user-profile">
+                    <img src="user-placeholder.jpg" alt="User Profile">
+                    <span>John Doe</span>
+                </div>
+            </header>
+
+            <!-- Dashboard Section -->
+            <section id="dashboard">
+                <h2>Dashboard</h2>
+                <div class="dashboard-cards">
+                    <div class="card">
+                        <h3>Total Contacts</h3>
+                        <p>150</p>
+                    </div>
+                    <div class="card">
+                        <h3>Active Leads</h3>
+                        <p>85</p>
+                    </div>
+                    <div class="card">
+                        <h3>Tasks Due Today</h3>
+                        <p>5</p>
+                    </div>
+                    <div class="card">
+                        <h3>Monthly Revenue</h3>
+                        <p>$12,000</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contacts Section -->
+            <section id="contacts">
+                <h2>Contacts</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Phone</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Jane Doe</td>
+                            <td>jane@example.com</td>
+                            <td>+123456789</td>
+                            <td>Active</td>
+                        </tr>
+                        <tr>
+                            <td>John Smith</td>
+                            <td>john@example.com</td>
+                            <td>+987654321</td>
+                            <td>Inactive</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <!-- Leads Section -->
+            <section id="leads">
+                <h2>Leads</h2>
+                <div class="leads-list">
+                    <div class="lead-item">
+                        <p>Lead Name: Acme Corporation</p>
+                        <p>Status: Negotiation</p>
+                        <button>Follow Up</button>
+                    </div>
+                    <div class="lead-item">
+                        <p>Lead Name: Tech Solutions</p>
+                        <p>Status: Initial Contact</p>
+                        <button>Follow Up</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Sales Pipeline Section -->
+            <section id="sales-pipeline">
+                <h2>Sales Pipeline</h2>
+                <div class="pipeline-stages">
+                    <div class="stage">Prospecting</div>
+                    <div class="stage">Qualified</div>
+                    <div class="stage">Negotiation</div>
+                    <div class="stage">Closed</div>
+                </div>
+            </section>
+
+            <!-- Tasks Section -->
+            <section id="tasks">
+                <h2>Tasks</h2>
+                <ul class="task-list">
+                    <li>Call with Client A <span class="due">Due Today</span></li>
+                    <li>Prepare Proposal for Project B <span class="due">Due Tomorrow</span></li>
+                    <li>Update CRM with new leads <span class="due">Due in 2 Days</span></li>
+                </ul>
+            </section>
+
+            <!-- Reports Section -->
+            <section id="reports">
+                <h2>Reports</h2>
+                <div class="reports-summary">
+                    <p>Monthly Sales: $25,000</p>
+                    <p>Customer Satisfaction: 90%</p>
+                    <p>Leads Conversion Rate: 45%</p>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
